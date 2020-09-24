@@ -3,12 +3,12 @@
     align-items: center;
     justify-content: space-between;
     height: 60px;
-    background-color: #0f4db2;
+    background-color: #2ecc71;
     position: fixed;
     top: 0;
     z-index: 100;
     width: 100%;
-    box-shadow: 0 0 12px #0f62fe;
+    box-shadow: 0 0 12px #2ecc71;
 }
 
 .blockSearch {
@@ -19,7 +19,7 @@
 
 .inputSearchPanel {
     width: 200px;
-    border-radius: 15px;
+    border-radius: 40px;
     outline: none;
 }
 
@@ -54,7 +54,7 @@
     padding: 10px 15px;
     line-height: 1;
     text-decoration: none;
-    border-radius: 2px;
+    border-radius: 40px;
     transition: .2s;
     text-align: center;
 }
