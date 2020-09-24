@@ -1,0 +1,20 @@
+.textHeader {
+    border-bottom: 2px solid #0f62fe !important;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.titleHeader {
+    margin: 0 auto !important;
+    text-align: center;
+}
+
+.inlineLoading {
+    justify-content: flex-end;
+    padding-right: 65px;
+}
+
+.searchSkeletonToolbar {
+    width: 100%;
+}

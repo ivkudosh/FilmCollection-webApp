@@ -1,0 +1,21 @@
+.textFooterModal {
+    text-align: center;
+}
+
+.socialAuth {
+    display: flex;
+    justify-content: center;
+}
+
+.itemSocialAuth {
+    padding: 0 5px;
+}
+
+.linkToggle {
+    cursor: pointer;
+}
+
+.loginWith {
+    text-align: center;
+    font-size: 24px;
+}

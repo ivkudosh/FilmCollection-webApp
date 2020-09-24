@@ -1,0 +1,11 @@
+.bx--data-table-container {
+    width: 100%;
+}
+
+.bx--parent-row > .overflowActionsContainer {
+    text-align: -webkit-right;
+}
+
+.bx--label {
+    display: initial;
+}

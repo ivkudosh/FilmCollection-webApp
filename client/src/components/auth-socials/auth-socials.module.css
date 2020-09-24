@@ -1,0 +1,11 @@
+.logoAuthVk {
+    height: 45px;
+    cursor: pointer;
+}
+
+.logoAuthGoogle {
+    height: 45px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 20%;
+}

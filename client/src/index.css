@@ -1,0 +1,14 @@
+body {
+    background-color: #f4f4f4;
+    font-family: 'IBM Plex Mono', 'Menlo', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', Courier, monospace;
+}
+
+.contentApp {
+    margin: 80px 1% 50px 1%;
+}
+
+@media screen and (max-width: 774px) {
+    .contentApp {
+        margin-top: 90px;
+    }
+}

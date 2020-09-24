@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 774px) {
+    .container {
+        margin-top: 115px;
+    }
+}

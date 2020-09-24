@@ -1,0 +1,95 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.imgAndDateTags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.imgItemPage {
+    min-width: 400px;
+    max-width: 475px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #7a7a7a;
+}
+
+.fakeImgItemPage {
+    min-width: 400px;
+    max-width: 475px;
+    height: 350px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    background-color: #c8c8c8;
+    box-shadow: 0 0 15px #7a7a7a;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.dateCreationAndTags {
+    min-height: 150px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dateCreation {
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.description {
+    font-size: 16px;
+    word-break: break-all;
+    width: 70%;
+    margin-bottom: 15px;
+}
+
+.textInputAndButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.textInput {
+    flex: 10;
+    width: 100%;
+}
+
+.buttonSubmitComment {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media screen and (max-width: 774px) {
+    .container {
+        margin-top: 110px;
+    }
+    .dateCreationAndTags {
+        margin-left: 0;
+    }
+    .imgAndDateTags {
+        margin-bottom: 0;
+    }
+
+}

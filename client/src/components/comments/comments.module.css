@@ -1,0 +1,13 @@
+.comments {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.nameCommentator {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.row {
+    cursor: pointer;
+}
