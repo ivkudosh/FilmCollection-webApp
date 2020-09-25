@@ -31,9 +31,9 @@
 }
 
 .mainNavLinks {
-    flex: 1;
+    flex: 5; 
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 
 .authNavLinks {
