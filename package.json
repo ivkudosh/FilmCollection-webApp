@@ -16,7 +16,7 @@
     "express",
     "react"
   ],
-  "author": "Vladislav Babin <bardogchannel@gmail.com>",
+  "author": "Ilya Kudosh <ivkudosh@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",

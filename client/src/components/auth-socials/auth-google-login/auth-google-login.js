@@ -14,6 +14,7 @@ const AuthGoogleLogin = () => {
     const {resetAllErrors} = useResetAllErrors()
 
     const googleResponse = async (res) => {
+        console.log(res);
         const {email={}, name={}, googleId={}} = res.profileObj ? res.profileObj : {}
         const authData = {
             email,
@@ -32,7 +33,7 @@ const AuthGoogleLogin = () => {
 
     return (
         <GoogleLogin
-            clientId="835703414670-nude1ivt02njku4rkhicicafrhn3hgc9.apps.googleusercontent.com"
+            clientId="849062471994-oakfm94qoh576jrftfbttkq6tu0ou7bc.apps.googleusercontent.com"
             onSuccess={googleResponse}
             onFailure={googleResponse}
             cookiePolicy={'single_host_origin'}

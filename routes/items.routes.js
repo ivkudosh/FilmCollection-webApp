@@ -13,7 +13,6 @@ const router = Router()
 router.get('/searched', async (req, res) => {
     try {
         const {search} = req.query
-
         let items = []
         if (search) {
             await Item.syncIndexes()
@@ -21,7 +20,6 @@ router.get('/searched', async (req, res) => {
         } else {
             items = await Item.find()
         }
-
         res.status(200).json({items: itemsForFront(items)})
     } catch (e) {
         res.status(500).json({message: 'Something went wrong, try again'})

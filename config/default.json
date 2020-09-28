@@ -1,6 +1,6 @@
 {
-  "port": 5000,
-  "jwtSecret": "vladik bubin",
-  "mongoUri": "mongodb+srv://Vlad:123@cluster0-nsq8j.mongodb.net/test?retryWrites=true&w=majority",
-  "baseUrl": "https://stormy-garden-34529.herokuapp.com/"
+  "port": 3000,
+  "jwtSecret": "ilya kudosh",
+  "mongoUri": "mongodb://localhost:27017/itra-collection?gssapiServiceName=mongodb",
+  "baseUrl": "https://itra-collection.herokuapp.com/"
 }

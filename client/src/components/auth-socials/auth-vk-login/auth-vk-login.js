@@ -32,7 +32,7 @@ const AuthVkLogin = () => {
 
     return (
         <VkLogin
-            apiId="7394100"
+            apiId="7611621"
             callback={vkResponse}
             render={renderProps => (
                 <img
